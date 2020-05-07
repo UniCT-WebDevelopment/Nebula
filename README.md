@@ -5,12 +5,12 @@ E' presente una sezione di pagamento che usa Stripe.
 Ad ogni registrazione, acquisto,o richiesta reset-password, verrà inviata una mail contenente le informazioni necessarie.
 E' presente una sezione amministrativa realizzata con Voyager.
 
-## Prequisiti:
--Composer
--Artisan
--Xammp
-  -Apache
--MySql
+## Prequisiti:<br>
+- Composer
+- Artisan
+- Xammp
+  - Apache
+- MySql
 Su Windows copiare la cartella Nebula nella sottocartella XAMMP:
 
 ```\htdocs```
