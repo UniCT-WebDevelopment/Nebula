@@ -1,0 +1,573 @@
+
+  /*style="display:inline-block;font-weight: normal;font-style: normal;font-size: 18px;width:80%;"*/
+  .form-control-plaintext {
+    display: inline;
+  }
+  
+  #car-ind li{
+   
+    background-color: #6b6d00 !important;
+  }
+  
+  
+  body {
+    color: rgb(245, 226, 218) !important;
+   background: rgb(2,0,36);
+   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(213,33,94,1) 100%, rgba(105,124,169,1) 100%); 
+   font-family: 'Lato','Arial',sans-serif;
+   max-width: 100%;
+   overflow-x: hidden;
+   margin:0 !important;
+   padding:0 !important;
+  height:100%;
+  overflow-x: hidden;
+  }
+  .footer {
+    position: relative;
+    
+    min-height: 20%;
+  
+    width: 100%;
+    margin-top:100px;
+    color: white;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px #141a38;
+    background-color: #24242c;
+    padding-top:20px;
+  } 
+  
+  .carousel-nav .carousel-cell{
+    visibility: hidden;
+  }
+  @media screen and (min-width:740px){
+    .carousel-nav .carousel-cell {
+      display:inline-block;
+      height:115px;
+      width: 200px;
+      margin-left:5px;
+      visibility: visible;
+      margin-top:120px;
+      
+    }
+    
+    .carousel-cell img{
+      width:100%;
+    }
+    .carousel-nav .carousel-cell:before {
+      font-size: 50px;
+      line-height: 80px;
+    }
+    .carousel-nav .carousel-cell.is-nav-selected {
+      background: #ED2;
+    }
+  }
+
+  .account-section{
+    width:1920px !important;
+  }
+  .news-section{
+    position: relative;
+    width:90%;
+    margin:0;
+    padding:0;
+    
+  }
+  .separator {
+    width: 90%;
+  }
+  
+  .cart-button {
+    box-shadow: -3px 10px 14px -7px #141a38;
+    background: linear-gradient(to bottom, #1dcc49 5%, #02a086 100%);
+    background-color: #e2e2e2;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #1268b8;
+    white-space: nowrap;
+  }
+  
+  .cart-button:hover {
+    background: linear-gradient(to bottom, #0f443b 5%, #144721 100%);
+    background-color: #eb0e6a;
+    text-decoration: none;
+    color: #00caaf;
+  }
+  html{
+    height: 100%;
+  }
+  /*---------------------------------------------------------XSMALL SCREENS----------------------------------------------------------------------*/
+  
+  
+  .bg-custom{
+    background-color:rgb(5, 1, 1) !important;
+    border-top: 5px solid #532a88;
+    box-shadow: 3px 3px 21px #141a38;
+  }
+  /*
+  .navbar-toggler{
+    border:none;
+    color:white;
+  }
+  
+  .navbar-toggler-icon{
+    position: relative;
+    right:5px;
+  }
+  .navbar-toggler:focus{
+    outline:none ;
+  }*/
+  .card-text.card-title{
+    position: relative;
+    bottom:70px !important;
+    margin-left: 20px;
+    width:30%;
+    font-size: 30px;
+  
+  }
+.logo{
+/* position: absolute;*/
+       padding: 0 !important;
+      top:1px;
+      margin:5px;
+      left:1vw;
+      width:40px;
+      height:40px;
+    }
+    .navbar-brand{
+      position: static;
+      margin:0;
+      padding:0;
+    }
+    .cart-src{
+     
+      position: absolute;
+      right:10% !important;
+      top:10px;
+      right:10px;
+      margin:0;
+      padding:0;
+     
+    }
+    
+    .dropdown-menu{
+      background-color:rgb(5, 1, 1);
+    }
+    .dropdown-item{
+      color:rgb(145, 145, 145);
+    }
+    .nav-cont2 > .nav-link{
+      display: inline-block;
+      color:rgb(145, 145, 145) !important;
+      margin:0;
+      padding-left:10px;
+    }
+  
+    .nav-link:hover > i{
+  
+      color:rgb(207, 207, 207);
+    }
+  
+    #navcol-1{
+      position: absolute;
+      top:5px;
+      left:15vw;
+      display: inline-block !important;
+      transition: visibility 0s 2s, opacity 0.1s linear;
+      transform:scale(1, 1);
+      transition:all .2s ease-in-out;
+    }
+    .nav-item{
+      margin-left: 1vw;
+      padding-left: 2vw;
+      
+    }
+  
+    ul > li{
+      cursor: pointer;
+    }
+   
+    .navbar-collapse{
+      visibility: visible;
+    }
+  /*
+    .form-inline{
+      left:16%;
+    }*/
+    /*.searchbar{
+      display: none;
+      visibility: hidden;
+      border:0;
+      padding:0 10px;
+      width:0;
+      height:35px;
+      color:white !important;
+      border-bottom: 1px solid #606064;
+      background-color: #01000f10 !important;
+      border-radius: 0;
+    }*/
+    /*.searchbar.active{
+      visibility: visible;
+      width:50vw;
+      padding:0 10px;
+      transition: all 1s 0.2s ease;
+    
+    }*/
+      .el-ic.active::before{
+        position: relative;
+        top:3px;
+        margin-right: 5px;
+        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f002";
+      }
+  
+      .ics{
+        position: absolute;
+        
+        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f00d";
+      }
+  /*
+    #navcol-1.hide{
+      visibility: hidden;
+      opacity: 0;
+      transform:scale(.5, .5);
+      transition:all .2s ease-in-out;
+    }*/
+  
+  
+    #sgin:hover > a{
+      color:rgb(3, 197, 197) !important;
+    }
+    .card-homepage{
+      position: relative;
+      cursor: pointer;
+      background-color: #020024 ;
+      border:none !important;
+      min-height: 176px;
+      font-size: 12px;
+    }
+    
+
+    .card-img-top{
+      min-height: 86px !important;
+    }
+  
+    .card-body-homepage{
+      position: relative;
+    }
+  
+    .card-homepage:hover{
+      box-shadow: 4px 2px 8px #03020f6b;
+    }
+    
+    
+    .card-homepage:hover .card-platform{
+      visibility: hidden;
+    }
+    .card-homepage:hover .card-price{
+      position: absolute !important;
+      right:50px !important;
+    }
+  
+  
+    .fw-icon{
+      position: absolute;
+      right:10% !important;
+    }
+
+
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+      }
+    
+      .fw-icon{
+        font-size: 21px !important;
+        padding: 0;
+        margin: 0;
+        height: 0;
+        position: absolute;
+        top:10px;
+        left:6px;
+      }
+    
+      #car-ind{
+        position: relative;  
+      }
+    
+      #car-ind li{
+        width: 42px;
+        height: 3px !important;
+        background-color: #0bb15e !important; 
+      }
+    
+      .card-horizontal{
+        background: #c31432;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #c3143157, #240b3604);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #c314310e, #240b3604); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border:none;
+        font-size: 14px !important;
+      }
+    
+      .card-horizontal:hover{
+        background-color: #44020d7a;
+        
+      }
+    
+      .card-game-page{
+          position: relative;
+          height:150px;
+          background-color: #020024;
+          box-shadow: 5px 5px 5px 1px black;
+      }
+      .card-game-btn{
+          position: absolute;
+          width:80%;
+          height:60px;
+          top:50%;
+          left:50px;
+          background: radial-gradient(circle, rgb(2, 228, 115) 0%, rgb(0, 255, 191) 100%, rgb(0, 71, 30) 100%); 
+          border-radius: 5px;
+          color:white !important;
+          border:none;
+      }
+      @media screen and (max-width:768px){
+        .card-game-btn{
+          position: absolute;
+          width:80%;
+          height:60px;
+          top:50%;
+          left:35px;
+          background: radial-gradient(circle, rgb(2, 228, 115) 0%, rgb(0, 255, 191) 100%, rgb(0, 71, 30) 100%); 
+          border-radius: 5px;
+          color:white !important;
+          border:none;
+      }
+      }
+      .card-price{
+          text-align: end;
+          font-size: 30px;
+      }
+      
+      .card-game-btn:hover{
+        background: radial-gradient(circle, rgb(2, 228, 115) 30%, rgb(0, 255, 191) 80%, rgb(0, 71, 30) 100%); 
+        cursor: pointer;
+      }
+
+      .card-game-btn:active{
+        transform: translateY(2px);
+      }
+
+      .card-game-btn .fw-icon{
+        left:-60%;
+        font-size:30px !important;
+      }
+
+      .card-game-btn .card-price{
+          font-size:30px;
+          text-align: center;
+      }
+
+      @media screen and (min-width:740px){
+        .card-game-btn .fw-icon{
+          left:-65%;
+          font-size:25px !important;
+        }
+  
+        .card-game-btn .card-price{
+            font-size:20px;
+            text-align: center;
+        }
+        .card-text.card-title{
+          position: relative;
+          bottom:250px !important;
+          margin-left: 20px;
+          width:30%;
+          font-size: 30px;
+        
+        }
+      }
+
+      @media screen and (min-width:992px){
+        .card-game-btn .fw-icon{
+          left:-65%;
+          font-size:28px !important;
+        }
+  
+        .card-game-btn .card-price{
+            font-size:25px;
+            text-align: center;
+        }
+      }
+
+      .card-game-btn .btn-primary{
+        
+        font-size:55px !important;
+      }
+    
+      .card-horizontal .card-title{
+       
+        left:0; 
+        top:0 !important;
+      }
+
+     
+      .card-horizontal .card-price{
+      
+        right:20px;
+        margin:0;
+        padding:0;
+    
+      }
+     
+      .card-horizontal .card-body{
+        position: relative;
+        right:20px !important;
+        height: 100%;
+      }
+    
+     
+      .links-endpage a{
+       text-decoration: none;
+        color: inherit;
+        margin-left: 12px;
+      }
+      .links-endpage a:hover{
+        text-decoration: none;
+         color: rgb(184, 181, 181);
+       }
+    
+    
+
+.hide{
+   visibility: hidden;
+ }
+.remove{
+   display: none;
+ }
+ 
+    /*
+ .mov-src-bar{
+    position:relative;
+    left:40%;
+}*/
+
+.flickity-dots{
+    display: none;
+}
+
+
+.carousel.is-fullscreen .carousel-cell {
+    height: 100%;
+    
+  }
+
+  .carousel.is-fullscreen .carousel-cell .gall img{
+    height:320px !important;
+    width:320px !important;
+  } 
+  
+  @media screen and (max-width:690px){
+    .carousel-cell img {
+      height:320px;
+      display: block;
+      max-height: 100%;
+    }
+  }
+
+  .flickity-page-dots .dot  {
+    bottom: 0px;
+    background:aqua !important;
+  }
+
+  @media screen and (min-width:700px){
+    .flickity-page-dots .dot  {
+      display: none !important;
+    }
+  }
+
+  .game-name{
+    position: absolute;
+    top:300px ;
+    left:20px;
+
+  }
+  .buy-item{
+    position: absolute;
+    top:450px;
+    width:100%;
+}
+
+
+.accordion{
+  position: absolute;
+    top:450px;
+}
+
+
+@media screen and (min-width:740px){
+  .game-name{
+    position: absolute;
+    top:600px;
+  }
+  .buy-item{
+    position: absolute;
+    top:450px;
+    left:60%;
+    width:35%;
+   
+  }
+  .card-game-btn .card-price{
+    font-size:25px;
+    text-align: center;
+}
+}
+
+@media screen and (min-width:992px){
+  .game-name{
+    position: absolute;
+    top:560px;
+  }
+  .buy-item{
+    position: absolute;
+    top:500px;
+    left:65%;
+    width:30%;
+   
+  }
+
+}
+
+@media screen and (min-width:740px){
+    .carousel-cell {
+        cursor:pointer;
+        width: 100%; 
+        height:560px; /* altezza  del carousel */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }    
+}
+
+.flickity-button{
+    display: none;
+}
+
+.card-collapse{
+  background-color: transparent;
+  text-decoration: none;
+  border:none;
+}
+
+.button-collapse{
+  background-color: transparent;
+  border-bottom:1px solid #020024;
+ 
+  text-decoration: none;
+} 
+
+button{
+  text-decoration: none !important;
+  color:rgb(179, 175, 175) !important;
+}
