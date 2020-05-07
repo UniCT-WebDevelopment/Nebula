@@ -34,7 +34,7 @@ E' possibile ora avviare il server tramite XAMMP o se non presente tramite il co
 
 e quindi accedervi tramite il proprio localhost:
 
-127.0.0.1:reservedport
+```127.0.0.1:reservedport```
 
 Per caricare file ed immagini e permettere un corretto funzionamento della parte parte amministrativa, è necessario configurarla con:
 
