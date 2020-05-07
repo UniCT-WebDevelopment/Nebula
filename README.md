@@ -1,4 +1,5 @@
-# Nebula.com è una piattafoma di e-commerce per l'acquisto di videogiochi in formato digitale, che richiama a livello visivo lo stile di GoG.com.
+# Nebula.com <br>
+è una piattafoma di e-commerce per l'acquisto di videogiochi in formato digitale, che richiama a livello visivo lo stile di GoG.com.
 E' stato realizzato con Bootstrap 4 e Laravel 7.x per il progetto di WebDevelopment per la facoltà di Informatica dell'Università degli Studi Di Catania. La piattaforma per ogni singolo utente permette la registrazione e login.Nonchè modifica nickname,avatar e password della sezione profilo.
 E' presente una sezione di pagamento che usa Stripe.
 Ad ogni registrazione, acquisto,o richiesta reset-password, verrà inviata una mail contenente le informazioni necessarie.
