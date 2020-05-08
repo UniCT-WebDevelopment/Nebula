@@ -98,7 +98,7 @@ class HomeController extends Controller
       $path = json_decode($link[0]->link,true);
         $version = json_decode($version[0]->version,true);
         
-        
+      
        return response()->download(public_path(). "\storage\\" .$path[0]['download_link'],$path[0]['original_name'] . '_v' .$version);
         }
        else

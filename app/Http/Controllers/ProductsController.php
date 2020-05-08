@@ -82,6 +82,7 @@ class ProductsController extends Controller
         $product_images = $product->images()->get();
        
         $user = Auth::id();
+        
         $products_buy = DB::table('order_product')->join('products','order_product.product_id','=' ,'products.id')
         ->where('order_product.user_id','=',$user)->get();
         if($downloadAvailable->count() > 0)

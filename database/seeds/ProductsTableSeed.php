@@ -484,13 +484,14 @@ class ProductsTableSeed extends Seeder
             256 MB RAM
             Graphics:
             3D graphics card compatible with DirectX 9',
-        //    'image' => 'http://www.nebula.com:8012/storage/images/games/nms/1.jpg'
+            'image' => "[]"
 
         ])->categories()->attach(2);
         $product = Product::find(14);
         $product->categories()->attach(3);
 
         $product->platforms()->attach(1);
+        
         
       
       
