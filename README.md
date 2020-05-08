@@ -11,15 +11,15 @@ E' presente una sezione amministrativa realizzata con Voyager.
 - Xammp
   - Apache
 - MySql
-Su Windows copiare la cartella Nebula nella sottocartella XAMMP:
+Su Windows copiare la cartella Nebula nella sottocartella XAMMP:<br>
 
 ```\htdocs```
 
-Se non presente installare artisan con il comando:
+Se ```Artisan``` non è presente, installarlo con il comando:<br>
 
 ```composer global require "laravel/installer"```
 
-Da htdocs\nebula:
+Da htdocs\nebula:<br>
 Per un primo avvio è necessario migrare le tabelle all'interno del database con il comando da terminale:
 
 ```php artisan migrate:fresh```
@@ -39,6 +39,10 @@ e quindi accedervi tramite il proprio localhost:
 Per caricare file ed immagini e permettere un corretto funzionamento della parte parte amministrativa, è necessario configurarla con:
 
 ```php artisan voyager:install```
+
+Qualora non venga effettuato il link alla cartella di storage è necessario farlo manualmente con il comando:<br>
+
+```php artisan storage:link```
 
 In seguito creare l'account amministatore con il comando:
 
