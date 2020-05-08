@@ -20,15 +20,13 @@
 
 
 </style>
-<div class="carousel-nav" 
-data-flickity='{ "asNavFor": ".carousel", "contain": true,"fullscreen":true, 
-"pageDots": false}' >
+<div class="carousel" style="margin-bottom:50px;" data-flickity='{"fullscreen":true}'>
 
-@if($product->images != "[]")
-@foreach (json_decode($product->images,true) as $single_image)
-<div class="carousel-cell " alt=product>
-    <img src="{{  productImage($single_image) }}"  /> 
-</div>
+@if($product->images != "[]"  && $product->images != null  )
+  @foreach (json_decode($product->images,true) as $single_image)
+  <div class="carousel-cell " alt=product>
+      <img src="{{  productImage($single_image) }}"  /> 
+  </div>
 @endforeach
 @else
 <div class="carousel-cell " alt=product>
@@ -41,7 +39,7 @@ data-flickity='{ "asNavFor": ".carousel", "contain": true,"fullscreen":true,
   <div class="carousel-nav" 
   data-flickity='{ "asNavFor": ".carousel", "contain": true,"fullscreen":true, 
   "pageDots": false}' >
-  @if($product->images != "[]")
+  @if($product->images != "[]"  && $product->images != null)
   @foreach (json_decode($product->images,true) as $single_image)
   <div class="carousel-cell " alt=product>
       <img src="{{  productImage($single_image) }}"  /> 
